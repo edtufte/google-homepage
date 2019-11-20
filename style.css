@@ -1,0 +1,11 @@
+body {
+    background-color: white;
+}
+
+body logo {
+    border: 0px;
+    margin: 8px 0px;
+    height: 56px;
+    width: 160px;
+}
+/* Need to figure out to get above formatting to apply to logo.png */

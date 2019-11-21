@@ -1,11 +1,24 @@
 body {
     background-color: white;
     padding: 50px 50px 50px 50px;
+    margin: 10px;
+    text-align: center;
 }
 
 #logo {
     border: 0px;
-    margin: 8px 0px;
-    height: 56px;
-    width: 160px;
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+    align-content: center;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    display: inline;
 }

@@ -6,25 +6,48 @@
     </head>
 
     <body>
-        <ul>
-            <li><a href="about.asp">About</a></li>
-            <li><a href="store.asp">Store</a></li>
-            <li><a href="gmail.asp">Gmail</a></li>
-            <li><a href="images.asp">Images</a></li>
-        </ul>
-        <img alt="Google Logo" src="logo.png" id="logo">
-        <form action="search.php" method="post">
-            <p><textarea rows="2" cols="50" name="searchQuery"></textarea></p>
-        </form>
+        <div class="header">
+            <ul class="lHeader">
+                <li><a href="about.asp">About</a></li>
+                <li><a href="store.asp">Store</a></li>
+            </ul>
 
-        <ul id="footer">
-            <li><a href="ads.asp">Advertising</a></li>
-            <li><a href="business.asp">Business</a></li>
-            <li><a href="searchHow.asp">How Search Works</a></li>
-            <li><a href="privacy.asp">Privacy</a></li>
-            <li><a href="terms.asp">Terms</a></li>
-            <li><a href="settings.asp">Settings</a></li>
-        </ul>
+            <ul class="rHeader">
+                <li><a href="gmail.asp">Gmail</a></li>
+                <li><a href="images.asp">Images</a></li>
+            </ul>  
+        </div>
+
+        <div class="center">
+            <div class="logo">
+                <img alt="Google Logo" src="logo.png" id="logo">
+            </div>
+            <div class="search">
+                <img id="search-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/980px-Magnifying_glass_icon.svg.png">
+                <form action="search.php" method="GET" id="search">
+                    <input type="text" name="search" id="search">
+                </form>
+            </div>
+            
+            <div>
+                <button class="buttons" form="search" name="standard-search">Google Search</button>
+                <button class="buttons" form="search" name="luckySearch">I'm Feeling Lucky</button>
+            </div> 
+        </div>
+
+        <div class="footer">
+            <ul class="lFooter">
+                <li><a href="ads.asp">Advertising</a></li>
+                <li><a href="business.asp">Business</a></li>
+                <li><a href="searchHow.asp">How Search Works</a></li>
+            </ul>
+
+            <ul class="rFooter">
+                <li><a href="privacy.asp">Privacy</a></li>
+                <li><a href="terms.asp">Terms</a></li>
+                <li><a href="settings.asp">Settings</a></li>
+            </ul>
+        </div>
     </body>
 
 </html>

@@ -45,6 +45,12 @@ body {
     padding: 13px 17px;
 }
 
+#microphone {
+    height: 22px;
+    width: 22px;
+    padding: 10px 0px 5px 20px;
+}
+
 ul {
     display: inline-flex;
     list-style-type: none;
